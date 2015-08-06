@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>A POC for Modern Authentication Systems</h2>
+</div>
+
+<h3>Identity</h3>
+@if (CurrentUser.IsAuthenticated)
+{
+    <p>
+        <dl class="dl-horizontal">
+            @foreach (var claim in CurrentUser.Claims)
+            {
+                <dt>@claim.Type</dt>
+                <dd>@claim.Value</dd>
+            }
+        </dl>
+    </p>
+}
+else
+{
+    <p>
+        anonymous.
+    </p>
+}

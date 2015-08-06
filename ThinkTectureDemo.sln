@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkTecture.Auth", "ThinkTecture.Auth\ThinkTecture.Auth.csproj", "{71F6375C-453C-4AF8-AB30-42B0A984CD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkTecture.Common", "ThinkTecture.Common\ThinkTecture.Common.csproj", "{154EB17F-4CB9-4CC3-A4B8-AB43B18007F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkTecture.Api", "ThinkTecture.Api\ThinkTecture.Api.csproj", "{948AB271-3183-4B18-B339-C57D639C694A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkTecture.Mvc", "ThinkTecture.Mvc\ThinkTecture.Mvc.csproj", "{ADF3BDE0-5032-45C0-A21F-452BEEF4D5F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkTecture.Client.Console", "ThinkTecture.Client.Console\ThinkTecture.Client.Console.csproj", "{0BCE008A-687A-4A55-8FE0-5FB8B711EF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F6375C-453C-4AF8-AB30-42B0A984CD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F6375C-453C-4AF8-AB30-42B0A984CD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F6375C-453C-4AF8-AB30-42B0A984CD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F6375C-453C-4AF8-AB30-42B0A984CD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154EB17F-4CB9-4CC3-A4B8-AB43B18007F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154EB17F-4CB9-4CC3-A4B8-AB43B18007F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154EB17F-4CB9-4CC3-A4B8-AB43B18007F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154EB17F-4CB9-4CC3-A4B8-AB43B18007F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948AB271-3183-4B18-B339-C57D639C694A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948AB271-3183-4B18-B339-C57D639C694A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948AB271-3183-4B18-B339-C57D639C694A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948AB271-3183-4B18-B339-C57D639C694A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF3BDE0-5032-45C0-A21F-452BEEF4D5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF3BDE0-5032-45C0-A21F-452BEEF4D5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF3BDE0-5032-45C0-A21F-452BEEF4D5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF3BDE0-5032-45C0-A21F-452BEEF4D5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCE008A-687A-4A55-8FE0-5FB8B711EF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCE008A-687A-4A55-8FE0-5FB8B711EF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCE008A-687A-4A55-8FE0-5FB8B711EF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCE008A-687A-4A55-8FE0-5FB8B711EF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
